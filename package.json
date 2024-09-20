@@ -1,0 +1,31 @@
+{
+    "name": "summer",
+    "displayName": "Summer",
+    "description": "The Summer color palette",
+    "version": "0.1.0",
+    "repository": "https://github.com/rice7th/summer-vscode",
+	"publisher": "Rice7th",
+	"license": "MIT",
+    "icon": "summer.png",
+    "keywords": [
+		"theme",
+		"summer",
+		"tropical",
+		"contrast"
+	],
+    "engines": {
+        "vscode": "^1.64.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Summer",
+                "uiTheme": "vs-dark",
+                "path": "./themes/summer-color-theme.json"
+            }
+        ]
+    }
+}
